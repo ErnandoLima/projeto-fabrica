@@ -14,6 +14,7 @@
  
 body {
     font-family: 'roboto', sans-serif;
+    font-size: 100%;
 }
  .header {
      display: flex;
@@ -30,6 +31,60 @@ body {
 
 .menu {
     display: flex;
-    gap: 80px;
+    gap: 65px;
+
+}
+
+.item-menu {
+    font-size: 20px;
+}
+
+.area-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid grey;
+    padding: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 35;
+
+}
+
+.botao {
+    height: 109px;
+    width: 419px;
+    background-color: var(--cor-botao);
+    color: #FFF;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'roboto', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.botao:hover {
+
+    background-color: aqua;
+}
+
+.rodape {
+    padding: 45px;
+    border-top: 2px solid grey;
+    text-align: center;
 
 }
